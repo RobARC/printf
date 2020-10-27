@@ -21,16 +21,16 @@ int counter;
 
 counter = 20;
 
-#printf ("The value is% d", counter);
+printf ("The value is% d", counter);
 
-#Result: The value is 20
+Result: The value is 20
 
-#For this example we have created a variable of integer type called counter that has an initial value of 20. 
-#We want to print this value together with the string "The Value is", 
-#to achieve this we call the printf function and use the string as parameters mentioned above and immediately 
-#after we use the% sign together with the letter d, which establishes that the value to be printed in this case will 
-#be an integer, since the variable is of the integer type, finally we would pass the name of the variable as a parameter.
+For this example we have created a variable of integer type called counter that has an initial value of 20. 
+We want to print this value together with the string "The Value is", 
+to achieve this we call the printf function and use the string as parameters mentioned above and immediately 
+after we use the% sign together with the letter d, which establishes that the value to be printed in this case will 
+be an integer, since the variable is of the integer type, finally we would pass the name of the variable as a parameter.
 
-#Different types of strings and numbers have been taken into account to carry out the necessary tests. 
-#Based on this project, a manual has been created for our printf function. 
-#This manual is part of the files contained in this repository.
+Different types of strings and numbers have been taken into account to carry out the necessary tests. 
+Based on this project, a manual has been created for our printf function. 
+This manual is part of the files contained in this repository.
