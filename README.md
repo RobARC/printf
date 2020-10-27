@@ -1,25 +1,25 @@
-#This repository contains files generated to create a printf function using the C language. 
-#It has been made with reference to printf man 3. 
-#It is important to mention that the following format specifiers have been taken into account in this project:
+This repository contains files generated to create a printf function using the C language. 
+It has been made with reference to printf man 3. 
+It is important to mention that the following format specifiers have been taken into account in this project:
 
-#c - char data type
+c - char data type
 
-#s - String data type
+s - String data type
 
-#d - Integer data type
+d - Integer data type
 
-#i - Integer data type
+i - Integer data type
 
-#The format specifiers set the type of data to print in a printf function. 
-#To use these specifiers it is necessary to prepend the% sign, therefore it will also be used in this project.
+The format specifiers set the type of data to print in a printf function. 
+To use these specifiers it is necessary to prepend the% sign, therefore it will also be used in this project.
 
-#It should be mentioned that printf is a function capable of printing a string on the screen, 
-#this string can contain different types of data, receives a variable number of arguments of different types 
-#and prints them in the order indicated. Below you will find an example of using a printf function:
+It should be mentioned that printf is a function capable of printing a string on the screen, 
+this string can contain different types of data, receives a variable number of arguments of different types 
+and prints them in the order indicated. Below you will find an example of using a printf function:
 
-#int counter;
+int counter;
 
-#counter = 20;
+counter = 20;
 
 #printf ("The value is% d", counter);
 
