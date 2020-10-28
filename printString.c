@@ -14,7 +14,7 @@ int printString(char *string)
 {
 int c = 0;
 
-	while (string[c] != '\0';
+	while (string[c] != '\0')
 	{
 		printChar(string[c]);
 		c++;
