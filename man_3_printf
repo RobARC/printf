@@ -1,0 +1,69 @@
+./" Manpage for printf
+.TH man 3 "October 27th 2020" "1.0" "_printf man page"
+.SH NAME
+_printf - formats and prints strings, characters or numbers to the standard output
+.SH SYNOPSIS
+.br
+.SS SYNTAX
+.B #include "holberton.h"
+.br
+_printf("%type_of_variable, variable);
+.br
+.SS PROTOTYPE
+.br
+int _printf(const char *format, ...)
+
+.SH DESCRIPTION
+"_printf" stands for "print formatted" and it's a function that prints text (characters or strings) and numbers (integers or decimals).
+.br
+ Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:
+.br
+.SS FORMAT SPECIFIERS
+.B %c -  prints a single character
+.br %s - prints an array of characters without the terminating null byte
+.br
+.B %d - prints an integer base 10
+.br
+.B %i - prints an integer base auto detected
+.br
+
+.SH RETURN VALUE
+On success, printf returns the number of every character printed.
+.br
+In case of format being NULL or the function finding any error, printf would return -1.
+
+.SH BUGS
+No known bugs.
+
+.SH EXAMPLES
+.br
+An example of one common usage:
+.br
+Print a string:
+.br
+char *string = "World";
+.br
+_printf("Hello, %s, string);
+.br
+return (0);
+.br
+.SS Output:
+.br
+Hello, World
+.br
+.SH SEE ALSO
+.br
+printf(3)
+.br
+.SH BUGS
+.br
+Not known bugs.
+.br
+
+.SH AUTHORS
+.br
+Written by:
+.br
+.B Robert Rondon - 2474@holbertonschool.com
+.br
+.B Katherine De La Hoz 1817@holbertonschool.com
